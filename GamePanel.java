@@ -69,7 +69,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
     boolean dead = false;
     boolean[] lives = {true, true, true};
     boolean[] spaces = {false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
-    bert p1 = new bert(400,100, this, spaces, lives, dead);
+    korila p1 = new korila(400,100, this, spaces, lives, dead);
     ball ball1 = new ball(350,170, this, dead);
     public GamePanel() {
         t.start();
@@ -119,7 +119,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
     public void paintComponent(Graphics g)  {
         super.paintComponent(g);
 
-
+        // PICTURE
         Graphics2D g2 = (Graphics2D) g;
 
         g2.setColor(Color.BROWN);
