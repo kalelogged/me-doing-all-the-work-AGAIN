@@ -122,7 +122,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
 
         Graphics2D g2 = (Graphics2D) g;
 
-        g2.setColor(Color.YELLOW);
+        g2.setColor(Color.BROWN);
         Image img1 = Toolkit.getDefaultToolkit().getImage("Qbert map.PNG"); /*the image cannot be in the SRC folder*/
         g2.drawImage(img1, 0 , 0 , 870 , 800 , this);
 
@@ -166,7 +166,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly5[] = {435,492,435,382};
             int yPoly5[] = {280,308,338,310};
             Polygon poly5 = new Polygon(xPoly5, yPoly5, xPoly5.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly5);
             g2.fill(poly5);
         }
@@ -175,7 +175,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly6[] = {550,605,550,495};
             int yPoly6[] = {280,308,338,310};
             Polygon poly6 = new Polygon(xPoly6, yPoly6, xPoly6.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly6);
             g2.fill(poly6);
         }
@@ -184,7 +184,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly7[] = {270,326,272,215};
             int yPoly7[] = {358,386,413,386};
             Polygon poly7 = new Polygon(xPoly7, yPoly7, xPoly7.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly7);
             g2.fill(poly7);
         }
@@ -193,7 +193,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly8[] = {382,326,382,435};
             int yPoly8[] = {358,386,413,386};
             Polygon poly8 = new Polygon(xPoly8, yPoly8, xPoly8.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly8);
             g2.fill(poly8);
         }
@@ -202,7 +202,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly9[] = {496,551,494,435};
             int yPoly9[] = {356,386,413,386};
             Polygon poly9 = new Polygon(xPoly9, yPoly9, xPoly9.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly9);
             g2.fill(poly9);
         }
@@ -211,7 +211,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly10[] = {605,550,605,660};
             int yPoly10[] = {358,386,413,386};
             Polygon poly10 = new Polygon(xPoly10, yPoly10, xPoly10.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly10);
             g2.fill(poly10);
         }
@@ -220,7 +220,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly11[] = {215,270,215,160};
             int yPoly11[] = {435,464,490,462};
             Polygon poly11 = new Polygon(xPoly11, yPoly11, xPoly11.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly11);
             g2.fill(poly11);
         }
@@ -237,7 +237,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly13[] = {438,496,438,380};
             int yPoly13[] = {435,462,490,462};
             Polygon poly13 = new Polygon(xPoly13, yPoly13, xPoly13.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly13);
             g2.fill(poly13);
         }
@@ -246,7 +246,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly14[] = {552,605,552,494};
             int yPoly14[] = {435,462,490,462};
             Polygon poly14 = new Polygon(xPoly14, yPoly14, xPoly14.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly14);
             g2.fill(poly14);
         }
@@ -255,7 +255,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly15[] = {660,716,660,605};
             int yPoly15[] = {435,462,490,462};
             Polygon poly15 = new Polygon(xPoly15, yPoly15, xPoly15.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly15);
             g2.fill(poly15);
         }
@@ -265,7 +265,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly16[] = {160,105,160,211};
             int yPoly16[] = {515,540,570,539};
             Polygon poly16 = new Polygon(xPoly16, yPoly16, xPoly16.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly16);
             g2.fill(poly16);
         }
@@ -274,7 +274,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly17[] = {273,215,270,323};
             int yPoly17[] = {513,539,570,539};
             Polygon poly17 = new Polygon(xPoly17, yPoly17, xPoly17.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly17);
             g2.fill(poly17);
         }
@@ -283,7 +283,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly18[] = {383,325,380,435};
             int yPoly18[] = {513,540,570,539};
             Polygon poly18 = new Polygon(xPoly18, yPoly18, xPoly18.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly18);
             g2.fill(poly18);
         }
@@ -292,7 +292,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly19[] = {495,440,495,545};
             int yPoly19[] = {515,540,565,539};
             Polygon poly19 = new Polygon(xPoly19, yPoly19, xPoly19.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly19);
             g2.fill(poly19);
         }
@@ -301,7 +301,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly20[] = {605,550,605,660};
             int yPoly20[] = {515,540,565,539};
             Polygon poly20 = new Polygon(xPoly20, yPoly20, xPoly20.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly20);
             g2.fill(poly20);
         }
@@ -310,7 +310,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly21[] = {715,660,715,770};
             int yPoly21[] = {515,540,565,539};
             Polygon poly21 = new Polygon(xPoly21, yPoly21, xPoly21.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly21);
             g2.fill(poly21);
         }
@@ -320,7 +320,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly22[] = {105, 47, 105, 160};
             int yPoly22[] = {590,615,645,615};
             Polygon poly22 = new Polygon(xPoly22, yPoly22, xPoly22.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly22);
             g2.fill(poly22);
         }
@@ -329,7 +329,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly23[] = {215, 157, 215, 270};
             int yPoly23[] = {590,615,645,615};
             Polygon poly23 = new Polygon(xPoly23, yPoly23, xPoly23.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly23);
             g2.fill(poly23);
         }
@@ -338,7 +338,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly24[] = {325, 270, 325, 380};
             int yPoly24[] = {590,615,645,615};
             Polygon poly24 = new Polygon(xPoly24, yPoly24, xPoly24.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly24);
             g2.fill(poly24);
         }
@@ -347,7 +347,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly25[] = {435, 380, 435, 490};
             int yPoly25[] = {590,615,645,615};
             Polygon poly25 = new Polygon(xPoly25, yPoly25, xPoly25.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly25);
             g2.fill(poly25);
         }
@@ -356,7 +356,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly26[] = {550, 495, 550, 605};
             int yPoly26[] = {590,615,645,615};
             Polygon poly26 = new Polygon(xPoly26, yPoly26, xPoly26.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly26);
             g2.fill(poly26);
         }
@@ -365,7 +365,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly27[] = {660, 605, 660, 715};
             int yPoly27[] = {590,615,645,615};
             Polygon poly27 = new Polygon(xPoly27, yPoly27, xPoly27.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly27);
             g2.fill(poly27);
         }
@@ -374,7 +374,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
             int xPoly28[] = {775,720,775,825};
             int yPoly28[] = {590,615,645,615};
             Polygon poly28 = new Polygon(xPoly28, yPoly28, xPoly28.length);
-            g2.setColor(Color.YELLOW);
+            g2.setColor(Color.BROWN);
             g2.drawPolygon(poly28);
             g2.fill(poly28);
 
@@ -384,7 +384,7 @@ public class GamePanel extends JPanel implements ActionListener, KeyListener {
         p1.drawSelf(g2);
         ball1.drawSelf(g2);
 
-
+        //REPLACE WITH NEW PICTURES
         if(p1.win()){
             Image img3 = Toolkit.getDefaultToolkit().getImage("QbertLevelComplete.PNG"); /*the image cannot be in the SRC folder*/
             g2.drawImage(img3, 0 , 0 , 870 , 800 , this);
