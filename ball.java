@@ -74,6 +74,7 @@ public class ball {
         dead = d;
 
     }
+    //picture
 
     public void drawSelf(Graphics g){
         if(alive){
