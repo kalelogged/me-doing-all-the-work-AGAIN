@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.geom.Point2D;
 
-public class bert {
+public class korila {
 double x, y;
     boolean lose = false;
     GamePanel gp;
@@ -66,7 +66,7 @@ double x, y;
     boolean[] spaces;
     boolean[] lives;
     boolean dead;
-    public bert(int xVal, int yVal, GamePanel gp, boolean[] bool, boolean[] l, boolean d){
+    public korila(int xVal, int yVal, GamePanel gp, boolean[] bool, boolean[] l, boolean d){
         x = xVal;
         y = yVal;
         this.gp = gp;
@@ -77,8 +77,8 @@ double x, y;
 
     public void drawSelf(Graphics g){
         if(alive){
-            Image qBert = Toolkit.getDefaultToolkit().getImage("bert.png"); /*the image cannot be in the SRC folder*/
-            g.drawImage(qBert, (int)x, (int)y, 70,70,gp );
+            Image korila = Toolkit.getDefaultToolkit().getImage("korilakkuma.png"); /*the image cannot be in the SRC folder*/
+            g.drawImage(korila, (int)x, (int)y, 70,70,gp );
         }
 
     }
